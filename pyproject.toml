@@ -1,0 +1,13 @@
+[project]
+name = "brainharmonix"
+version = "0.1.0"
+dependencies = [
+]
+
+[tool.setuptools.packages.find]
+include = ["modules*", "configs*", "libs*", "datasets*", "checkpoints*", "experiments*"]  # 只包含 modules 和 configs
+exclude = [
+    "tests*", 
+    "*.pyc", 
+    "__pycache__",
+]

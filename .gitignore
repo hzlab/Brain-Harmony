@@ -1,0 +1,8 @@
+brainharmonix.egg-info/
+*.pyc
+experiments/
+*.pth
+debug.sh
+data/
+std_output/
+qdel.sh
