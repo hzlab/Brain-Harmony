@@ -64,10 +64,9 @@ def get_config():
         predictor_embed_dim=384,
         cls_token=config.use_cls_token,
         grad_dim=30,
-        gradient="/path/to/gradient_mapping_400.csv",
+        gradient="brainharmony_pos_embed/gradient_mapping_400.csv",
         geoh_dim=200,
-        geo_harm="/path/to/schaefer400_roi_eigenmodes.csv",
-        ras="",
+        geo_harm="brainharmony_pos_embed/schaefer400_roi_eigenmodes.csv",
         use_pos_embed_decoder=True,  # False for downstream tasks, True for pretraining
     )
 
